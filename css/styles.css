@@ -29,6 +29,10 @@ h1 {
     margin: 20px 0;
 }
 
+h4 {
+    margin-top: 40px;
+}
+
 .recipes {
     list-style: none;
 }
