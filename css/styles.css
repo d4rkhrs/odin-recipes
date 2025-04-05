@@ -1,0 +1,70 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(247, 243, 243);
+    border: 1px solid #ccc;
+    line-height: 1.5;
+    padding: 30px
+}
+
+img {
+    max-width: 50%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.recipes {
+    list-style: none;
+}
+.ingredients ul {
+    list-style: disc;
+    padding: 20px;
+    line-height: 2;
+}
+
+.ingredients li::marker {
+    color: orange
+}
+
+.button {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: 40px auto;
+    background-color: aqua;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button a:link {
+    background-color: aqua;
+    text-decoration: none;
+}
+.button a:visited {
+    background-color: aqua;
+    text-decoration: none;
+}
+.button a:hover {
+    background-color: aqua;
+    text-decoration: underline;
+}
+.button a:active {
+    text-decoration: none;
+    background-color: aqua;
+}
